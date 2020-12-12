@@ -9,6 +9,7 @@
   "author": "Lenin Ormaza",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.0",
     "yargs": "^16.2.0"
   }
 }
