@@ -4,11 +4,15 @@ const { getLugarLatLng } = require('./lugar/lugar');
 
 const { getClima } = require('./clima/clima')
 
-getLugarLatLng(argv.direccion)
-    .then(result => {
-        console.log(result)
-        getClima(result)
-            .then(res => console.log(res))
-            .catch(err => console.log(err));
-    })
-    .catch(err => console.log(err));
+
+const getInfo = async(direccion) => {
+    try {
+        return temp = await getClima(await getLugarLatLng(direccion));
+    } catch (error) {
+        return error;
+    }
+};
+
+getInfo(argv.direccion)
+    .then(console.log)
+    .catch(console.log);
