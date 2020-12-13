@@ -8,7 +8,11 @@ const getLugarLatLng = (direccion) => {
             if (!city) {
                 reject(`La ciudad ${direccion} no fue encontrada`);
             } else {
-                resolve(city);
+
+                resolve({
+                    id: city[0].id,
+                    name: city[0].name
+                });
             }
         }
     })
