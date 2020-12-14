@@ -7,14 +7,14 @@ Es una pequeña aplicación de consola que optiene el clima de una ciudad o pais
 
 1.  Tener instalado Node.js 14.15.1 o superior en su ordenador
 
-2.  Crear una cuenta en la página de [Open Weather Map](https://openweathermap.org/api) para obtener un apikey y poder usar la apide de esta página.
+2.  Crear una cuenta en la página de [Open Weather Map](https://openweathermap.org/api) para obtener un apikey y poder usar la api de que ofrese este Sitio Web.
 
 3.  Agregar el archivo city.list.json:
     *   Este ejemplo usa un archivo JSOM que lo pueden descargar desde la documentación de uso de la página de Open Weather Map, en la sección [By city ID](https://openweathermap.org/current), o dando click [aqui](http://bulk.openweathermap.org/sample/city.list.json.gz).
     
     *   Una vez descargado el Archivo, debe descomprimirlo y luego pasar el archivo city.list.json a la carpeta /data/ del repositorio clonado, si no lo tiene debe crear la carpeta.
 
-4.  Como es una apliccación de consola desarrollada como del curso [Node de cero a experto](https://www.udemy.com/course/node-de-cero-a-experto/), necesariamente debe abrir la carpeta del repositorio en una terminal para usarlo.
+4.  Como es una apliccación de consola desarrollada como ejemplo del curso [Node de cero a experto](https://www.udemy.com/course/node-de-cero-a-experto/), necesariamente debe abrir la carpeta del repositorio en una terminal para usarlo.
 
 5.  Debe de instalar los paquetes de node usando el siguiente comando.
     ```
