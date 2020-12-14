@@ -28,7 +28,7 @@ Es una pequeña aplicación de consola que optiene el clima de una ciudad o pais
     o
     npm app -c {nombre de la ciudad o pais}
     ```
-*   Si es la primera vez que va usar debe de agregar la opcion --savekey seguido del Apikey de la página Open Weather Map
+*   Si es la primera vez en usar la aplicación o necesita cambiar la apikey, debe de agregar la opcion --savekey seguido del Apikey de la página Open Weather Map
     ```
     npm app --savekey {Apikey} --cityname {nombre de la ciudad o pais}
     o
