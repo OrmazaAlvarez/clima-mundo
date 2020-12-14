@@ -7,7 +7,7 @@ Es una pequeña aplicación de consola que optiene el clima de una ciudad o pais
 
 1.  Tener instalado Node.js 14.15.1 o superior en su ordenador
 
-2.  Crear una cuenta en la página de [Open Weather Map](https://openweathermap.org/api) para obtener un apikey para poder usar la apide de esta página.
+2.  Crear una cuenta en la página de [Open Weather Map](https://openweathermap.org/api) para obtener un apikey y poder usar la apide de esta página.
 
 3.  Agregar el archivo city.list.json:
     *   Este ejemplo usa un archivo JSOM que lo pueden descargar desde la documentación de uso de la página de Open Weather Map, en la sección [By city ID](https://openweathermap.org/current), o dando click [aqui](http://bulk.openweathermap.org/sample/city.list.json.gz).
